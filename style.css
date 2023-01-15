@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=East+Sea+Dokdo&family=Josefin+Sans:wght@100&family=Moon+Dance&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+
+header{
+    background-image: url('img/wp2595327.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav{
+    background-color:rgb(34, 220, 37);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+   width: 15%; 
+  text-align: center;
+  font-size: 30px;
+   
+}
+
+nav .menu{
+width: 35%;
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav .menu a{
+   width: 25%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+
+}
+
+main section h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(226, 216, 20);
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main section h2{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(182, 23, 84);
+    line-height: 50px;
+    text-align: center;
+}
+
+.logo a{
+    font-size: 33px;
+}
+
+.menu a:hover{
+color: rgb(250, 45, 38);
+
+}
+
+.active{
+    color: greenyellow;
+}
+
+.shop_by{
+margin-top: 30px;
+text-align: center;
+/* margin-left: 50px;
+margin-right: 20px;
+align-items: center; */
+}
+
+.shop_by a{
+  font-size: 20px;  
+  color: black;
+  justify-content: space-between;
+}
+
+ .btn{
+    background-color: rgb(24, 123, 172);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 20px;
+
+}
+
+.shop_by .btn:hover{
+    background-color: rgb(247, 29, 5);
+}
+
+/* About us  */
+.content{
+    width: 100%;
+    background-color: rgb(243, 178, 178);
+    height: 88vh;
+    padding: 30px 50px 20px 50px;
+    background-color: azure;
+
+}
+
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.line{
+    width: 100%;
+    background-color: rgb(38, 243, 147);
+    height: 5px;
+    border: none;
+}
+
+.content .left_text{
+    width: 60%;
+    margin-top: 50px;
+    line-height: 25px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgb(218, 236, 23);
+    padding: 20px;
+    float: left;
+    height: 60px;
+}
+
+.left_text h2{
+    font-size: 35px;
+    color: rgb(6, 17, 130);
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.left_text p{
+    margin-bottom: 20px;
+}
+
+.content .right_img{
+    float: right;
+    width: 40%;
+    margin-top: 50px;
+
+} 
+
+footer{
+    height: 5px;
+    background-color: rgb(233, 15, 160);
+    padding: 20px 50px 30px 50px;
+
+}
+
+footer span{
+    color: white;
+    margin-top: 40px; 
+    /* margin-top: 20px;   */
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+/* category css  */
+
+.shoes_gallery{
+    display:inline-block;
+
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+.shoes_gallery img{
+height: 180px;
+width: 300px;
+border: 2px sold black;
+}
+
+.shoes_gallery img:hover{
+    height: 100px;
+    width: 180px;
+    border: 2px sold black;
+    transform: scale(2,2);
+    transition: all 2s linear;
+    }
+
+    /* contact details  */
+    .container{
+        float: left;
+        border: 2px solid green;
+        margin: 100px 188px;
+        padding: 75px;
+        width: 45%;
+        border-radius: 28px;
+       font-size: 30PX;
+    }
+    .form-group input{
+text-align: center;
+display: block;
+width: 508px;
+border: 2px solid rgb(239, 45, 226);
+margin: 11px auto;
+font-size: 28px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    } 
+
+     
